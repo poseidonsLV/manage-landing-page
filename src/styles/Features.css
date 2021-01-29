@@ -1,0 +1,64 @@
+.features {
+  margin: 50px 0;
+  display: flex;
+  justify-content: space-around;
+}
+.features-left-title h1 {
+  max-width: 600px;
+  font-size: 3.5rem;
+  line-height: 50px;
+  color: hsl(228, 39%, 23%);
+}
+.features-left-desc {
+  margin-top: 25px;
+  letter-spacing: 0.8px;
+  line-height: 23px;
+  max-width: 450px;
+}
+.features-right-card {
+  margin: 25px 0;
+  max-width: 500px;
+  width: 100%;
+}
+.card-header-container {
+  display: flex;
+  align-items: center;
+}
+.card-header-container strong {
+  margin-right: 10px;
+  background: hsl(12, 88%, 59%);
+  padding: 5px 20px;
+  border-radius: 20px;
+  color: white;
+}
+.card-header-container h1 {
+  font-size: 1.2rem;
+  color: hsl(228, 39%, 23%);
+}
+.card-desc-container {
+  margin-top: 15px;
+  font-size: 14px;
+  letter-spacing: 0.8px;
+  line-height: 23px;
+  max-width: 450px;
+}
+
+/* .card-header-container h1::before {
+  content: "01";
+  left: -65px;
+  position: absolute;
+  color: white;
+  background: hsl(12, 88%, 59%);
+  font-size: 1.1rem;
+  width: 60px;
+  height: 30px;
+  display: grid;
+  place-items: center;
+  border-radius: 20px;
+}
+.card-header-container.two h1::before {
+  content: "02" !important;
+}
+.card-header-container.three h1::before {
+  content: "03" !important;
+} */

@@ -1,0 +1,72 @@
+.footer {
+  background: hsl(233, 12%, 13%);
+  padding: 50px 0;
+}
+
+.footer-container {
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+#column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+#footer-social-medias {
+  display: flex;
+}
+#footer-social-medias img {
+  margin: 0 8px;
+  object-fit: contain;
+  cursor: pointer;
+  transition: all 0.25s;
+}
+#footer-social-medias img:hover {
+  filter: invert(60%) sepia(45.9%) saturate(3500%) hue-rotate(0deg)
+    brightness(118%) contrast(209%);
+}
+.col-group {
+  font-size: 0.9rem;
+  color: white;
+  font-weight: 400;
+}
+.col-group-item {
+  display: flex;
+  padding: 3px;
+  cursor: pointer;
+  transition: all 0.25s;
+}
+.col-group-item:hover {
+  color: hsl(12, 88%, 59%);
+}
+.col-4 .row-1 .form-submit input {
+  border: none;
+  outline: none;
+  background: white;
+  padding: 10px;
+  border-radius: 25px;
+}
+.col-4 .row-1 {
+  min-width: 300px;
+}
+.col-4 .row-1 .form-submit-btn {
+  margin-left: 10px;
+}
+.col-4 .row-2 .copyright-text {
+  font-size: 0.8rem;
+  color: hsl(227, 12%, 61%);
+}
+.form-submit {
+  position: relative;
+}
+#email-input-msg.succ {
+  position: absolute;
+  color: hsl(154, 88%, 33%);
+  font-weight: 700;
+  top: -20px;
+  left: 25px;
+  font-size: 0.8rem;
+}

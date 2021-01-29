@@ -1,0 +1,19 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 120px;
+}
+.nav-group-item {
+  display: inline-block;
+  padding: 5px 10px;
+  margin: 3px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.nav-group-item:hover {
+  color: hsl(231, 8%, 68%);
+}
+.nav-mobile {
+  display: none;
+}
