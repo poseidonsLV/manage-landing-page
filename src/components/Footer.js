@@ -6,7 +6,6 @@ import Youtube from "../images/icon-youtube.svg";
 import Twitter from "../images/icon-twitter.svg";
 import Pinterest from "../images/icon-pinterest.svg";
 import Instagram from "../images/icon-instagram.svg";
-import errorIcon from "../images/icon-error.svg";
 
 function Footer() {
   const [succMsg, setSuccMsg] = useState("");

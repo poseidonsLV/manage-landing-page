@@ -18,7 +18,7 @@ function ImageSlider({ images }) {
   };
   useEffect(() => {
     setTestimonialUser(images[index]);
-  }, [index]);
+  }, [index, images]);
   console.log(testimonialUser);
 
   return (
@@ -28,7 +28,7 @@ function ImageSlider({ images }) {
       </button>
       <div className="testimonial-card">
         <div className="card-image">
-          <img src={testimonialUser.image} alt="image" />
+          <img src={testimonialUser.image} alt="user-img" />
         </div>
         <div className="card-testimonial-user">
           <strong>{testimonialUser.name}</strong>
