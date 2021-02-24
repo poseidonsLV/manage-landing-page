@@ -70,7 +70,7 @@
     opacity: 0;
   }
   .hamburger-menu.active .bottom {
-    transform: rotate(-45deg) translateY(4px) translateX(-3px);
+    transform: rotate(-45deg) translateY(3px) translateX(-2px);
   }
   .getStarted {
     flex-direction: column-reverse;
